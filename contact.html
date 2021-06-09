@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Travel and Tourism Page</title>
+    <style>
+        body{
+            background:url(https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-size: cover;
+            font-family: sans-serif;
+            background-position: center;
+            color: #fff;
+        }
+        .row g-3{
+            text-align: center;
+        }
+        .contact h1{
+            text-align: center;
+        }
+        .info{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+         <div class="contact">
+            <h1>Tour Package Online Form</h1>
+        </div>
+        <div class="info" align="center">
+                <form class="row g-3">
+                      <div class="col-md-4">
+                         <label for="validationDefault01" class="form-label">First name</label>
+                         <input type="text" class="form-control" id="validationDefault01" value="" required>
+                      </div>
+                      <div class="col-md-4">
+                         <label for="validationDefault02" class="form-label">Last name</label>
+                         <input type="text" class="form-control" id="validationDefault02" value="" required>
+                      </div>
+                      <div class="col-md-4">
+                          <label for="validationDefaultUsername" class="form-label">Username</label>
+                 <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                 </div>
+               </div>
+             <div class="col-md-6">
+               <label for="validationDefault03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+               <label for="validationDefault04" class="form-label">State</label>
+                 <select class="form-select" id="validationDefault04" required>
+                 <option selected disabled value="">Choose...</option>
+                 <option>Assam</option>
+                <option>West Bengal</option>
+                </select>
+             </div>
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+                 <div class="form-check">
+                       <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                       <label class="form-check-label" for="invalidCheck2">
+                      <input type="checkbox"> Agree to terms and conditions
+                       </label>
+            </div>
+          </div>
+          <div class="col-12">
+              <button class="btn btn-primary" type="submit">Reset</button>
+              <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+      </form> 
+            </div>
+    </form>
+</body>
+</html>

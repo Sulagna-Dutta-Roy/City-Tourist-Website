@@ -1,0 +1,335 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cormorant Garamond';
+}
+header{
+    justify-content: space-between;
+	display: flex;
+    width: 100%;
+	align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+}
+.logo-container,
+.nav-links, 
+.blank{
+    display: flex;
+}
+.nav-links {
+	list-style: none;
+    justify-content: space-between;
+}
+.nav-links li{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.nav-link {
+	color: #6d6767;
+	font-size: 20px;
+	text-decoration: none;
+}
+.nav-link:hover{
+    color: blue;
+}
+.home{
+    text-align: center;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    background: url(image.png);
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    font-size: 40px;
+}
+button {
+    width: 200px;
+    padding: 25px 0;
+    text-align: center;
+    margin: 20px 10px;
+    background: transparent;
+}
+span{
+    border-radius: 30px;
+}
+button:hover span {
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+/*--------------------------------------------------------------*/
+.services
+{
+    padding-top: 180px;
+    padding-bottom: 60px;
+    color: #333;
+    justify-content: space-around;
+}
+.services .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: transparent;
+    color: #000;
+    border-radius: 20px;
+    width: 30%;
+}
+.services .btn:hover{
+    width: 40%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+.service-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+/*---------------------------------*/
+.deals{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.deals1 .btn{
+    background: blue;
+    color: #fff;
+    border-radius: 20px;
+    width: 30%;
+}
+.deals1 .btn:hover{
+    width: 40%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+.deals2 .btn{
+    background: blue;
+    color: #fff;
+    border-radius: 20px;
+    width: 30%;
+}
+.deals2 .btn:hover{
+    width: 40%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+.deals3 .btn{
+    background: blue;
+    color: #fff;
+    border-radius: 20px;
+    width: 30%;
+}
+.deals3 .btn:hover{
+    width: 40%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+/*--------------------------------------------------------------------------------------*/
+.deals6 .btn{
+    background: blue;
+    color: #fff;
+    border-radius: 20px;
+    width: 40%;
+}
+.deals6 .btn:hover{
+    width: 50%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+.deals7 .btn{
+    background: blue;
+    color: #fff;
+    border-radius: 20px;
+    width: 40%;
+}
+.deals7 .btn:hover{
+    width: 50%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+.deals8 .btn{
+    background: blue;
+    color: #fff;
+    border-radius: 20px;
+    width: 40%;
+}
+.deals8 .btn:hover{
+    width: 50%;
+    background-color: #787878;
+    border-radius: 20px;
+    color: #fff;
+}
+/*-----------------------------------------------------------*/
+
+.hotels{
+    padding-top: 100px;
+}
+.hotels h1{
+    text-align: center;
+}
+.hotels p{
+    text-align: center;
+}
+.box{
+    display: flex;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+    background-color: #fff;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-top: 50px;
+    width:90%;
+    text-align: center;
+    margin-left: 80px;
+}
+.tours{
+    align-items: center;
+    padding-top: 130px;
+}
+.tours h1{
+    text-align: center;
+}
+.tours p{
+    text-align: center;
+}
+.sidebar{
+    padding-top: 50px;
+}
+.sidebars1{
+    display: flex;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+    margin-left: 280px;
+}
+.sidebars1 p{
+    margin-top: 20px;
+}
+.sidebars2{
+    display: flex;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+    margin-left: 400px;
+}
+.sidebars2 p{
+    margin-top: 20px;
+}
+.sidebars3{
+    display: flex;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+    margin-left: 500px;
+}
+.sidebars3 p{
+    margin-top: 20px;
+}
+.reasons{
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+    background-color: #fff;
+    padding-top: 90px;
+}
+.reasons1 h1{
+    padding-top: 10px;
+}
+.reasons p{
+    font-size: 20px;
+}
+
+.contact {
+    margin-top: 200px;
+    background: #000;
+    color: #fff;
+}
+.contact .footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact .footer-container .deals{
+    justify-content: space-around;
+}
+.credit{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+.footer {
+    background: #333;
+    padding-top:0;
+    margin-top: 40px;
+}
+.footer .link-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.footer .link-container .links{
+    font-size: 1rem;
+    color: #fff;
+}
+.footer .link-container .links a{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.credit h1{
+    color: #fff;
+    font-size: 20px;
+}
+@media(max-width:970px){
+    header{
+        text-align: center;
+        justify-content: space-around;
+    }
+    .nav-links{
+        text-align: center;
+        display: block;
+    }
+    .jumbotron{
+        display: block;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .box{
+        display: block;
+        justify-content: space-around;
+    }
+    .sidebars{
+        display: flex;
+        text-align: center;
+    }
+}
